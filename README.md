@@ -22,17 +22,17 @@ A Windows application for merging duplex-scanned PDF documents. Designed for use
    python main.py
 
 ## Usage
-1. Select the Front Pages PDF (scanned in normal order).
-2. Select the Back Pages PDF (scanned in reverse order).
+1. Select the Front Pages PDF.
+2. Select the Back Pages PDF.
 3. Choose the Output File location.
-4. Toggle the Reverse Back Pages checkbox if needed.
+4. Toggle the Reverse Back Pages checkbox if needed (for Back Pages PDF).
 5. Click Merge Documents.
 
 ## Packaging for Distribution
 To create a standalone Windows executable:
    ```bash
    pip install pyinstaller
-   pyinstaller --onefile --windowed --name "PDF Duplex Merger" main
+   pyinstaller --onefile --windowed --name "PDF Duplex Merger" main.py
    ```
 
 ## License
