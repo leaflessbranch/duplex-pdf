@@ -1,4 +1,4 @@
-# Duplex PDF Merger Pro
+# Duplex PDF Merger
 
 A Windows application for merging duplex-scanned PDF documents. Designed for users who scan double-sided documents using a single-sided scanner, this tool interleaves pages from two PDFs (front and back scans) into a single, properly ordered PDF.
 
@@ -7,7 +7,6 @@ A Windows application for merging duplex-scanned PDF documents. Designed for use
 - **User-Friendly Interface**: Clean and intuitive Windows 11-style UI.
 - **Validation**: Ensures PDFs are valid, unencrypted, and have matching page counts.
 - **Logging**: Detailed logging for troubleshooting.
-- **Production-Grade**: Robust error handling and input validation.
 
 ## Installation
 1. **Prerequisites**:
