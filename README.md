@@ -30,11 +30,11 @@ A Windows application for merging duplex-scanned PDF documents. Designed for use
 5. Click Merge Documents.
 
 ## Packaging for Distribution
-
 To create a standalone Windows executable:
    ```bash
    pip install pyinstaller
-   pyinstaller --onefile --windowed --name "PDF Duplex Merger" main.py
+   pyinstaller --onefile --windowed --name "PDF Duplex Merger" main
+   ```
 
 ## License
 
